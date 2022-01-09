@@ -11,13 +11,18 @@ namespace Strings
         static void Main(string[] args)
         {
             string city = "Ankara";
+<<<<<<< HEAD
             Console.WriteLine("Şehrin ilk harfi:" + city[0]);
+=======
+            Console.WriteLine("Şehrin ilk harfi:"+city[0]);
+>>>>>>> 3018c8e63e7d595e152ccde178941a6a38e39225
             foreach (var item in city)
             {
                 Console.Write(item + " ");
             }
             string city2 = "Kastomonu";
             Console.WriteLine();
+<<<<<<< HEAD
 
             string sentence = "Lagardaş biz angara bebesiyiz labiz";
 
@@ -50,12 +55,21 @@ namespace Strings
             Console.WriteLine(result9+" "+result10);
             Console.WriteLine(result11);
 
+=======
+           
+            string sentence = "Lagardaş biz angara bebesiyiz labiz";
+            Console.WriteLine(sentence.Length);
+>>>>>>> 3018c8e63e7d595e152ccde178941a6a38e39225
 
 
 
 
 
+<<<<<<< HEAD
             Console.ReadLine();
+=======
+           Console.ReadLine();
+>>>>>>> 3018c8e63e7d595e152ccde178941a6a38e39225
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9EE68EAE-59C0-4938-8F8A-84647F60E0BA}</ProjectGuid>
+    <ProjectGuid>{24A1DCB5-FBE8-4D7A-86BB-6ECE1DA507CA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>İnterfaces</RootNamespace>
-    <AssemblyName>İnterfaces</AssemblyName>
+    <RootNamespace>Multiple_Interfaces</RootNamespace>
+    <AssemblyName>Multiple Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICustumerDal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

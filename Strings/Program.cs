@@ -66,7 +66,8 @@ namespace Strings
             Console.WriteLine(a);
             Console.WriteLine(a.Remove(4));
             Console.WriteLine(a.Substring(2,2));
-
+            bool b = a.Contains("q");
+            Console.WriteLine(b);
             Console.ReadLine();
            Console.ReadLine();
 
